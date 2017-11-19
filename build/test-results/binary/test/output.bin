@@ -1,0 +1,12 @@
+getNotFullyConcWords
+getFullyConcWords
+)[catsdogcats, dogcatsdog, ratcatdogcat]
+)[catsdogcats, dogcatsdog, ratcatdogcat]
+getLongestConcWords
+[ratcatdogcat, catsdogcats]
+=[ethylenediaminetetraacetates, ethylenediaminetetraacetate]
+Execution time: 1768ms
+Used memory: 48.68mb
+wordsSort
+	setPath
+getNonConcWords
