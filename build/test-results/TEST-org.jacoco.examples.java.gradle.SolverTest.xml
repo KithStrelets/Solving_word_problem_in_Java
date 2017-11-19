@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jacoco.examples.java.gradle.SolverTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-11-19T17:53:23" hostname="TOSH" time="2.696">
+<testsuite name="org.jacoco.examples.java.gradle.SolverTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-11-19T18:38:30" hostname="TOSH" time="2.408">
   <properties/>
-  <testcase name="testGetNotFullyConcWords" classname="org.jacoco.examples.java.gradle.SolverTest" time="0.014"/>
+  <testcase name="testGetNotFullyConcWords" classname="org.jacoco.examples.java.gradle.SolverTest" time="0.054"/>
   <testcase name="testGetFullyConcWords" classname="org.jacoco.examples.java.gradle.SolverTest" time="0.007"/>
-  <testcase name="testGetLongestConcWords" classname="org.jacoco.examples.java.gradle.SolverTest" time="2.669"/>
+  <testcase name="testGetLongestConcWords" classname="org.jacoco.examples.java.gradle.SolverTest" time="2.339"/>
   <testcase name="testWordsSort" classname="org.jacoco.examples.java.gradle.SolverTest" time="0.0"/>
   <testcase name="testSetPath" classname="org.jacoco.examples.java.gradle.SolverTest" time="0.001"/>
   <testcase name="testGetNonConcWords" classname="org.jacoco.examples.java.gradle.SolverTest" time="0.0"/>
@@ -14,7 +14,7 @@ getFullyConcWords
 getLongestConcWords
 [ratcatdogcat, catsdogcats]
 [ethylenediaminetetraacetates, ethylenediaminetetraacetate]
-Execution time: 1768ms
+Execution time: 1546ms
 Used memory: 48.68mb
 wordsSort
 setPath

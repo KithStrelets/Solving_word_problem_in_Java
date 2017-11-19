@@ -22,10 +22,7 @@ public class TrieNode {
     }
 
     public TrieNode getNodeWithLetter(char letter) {
-        for (TrieNode node: values)
-            if (node.value == letter)
-                return node;
-
+        for (TrieNode node: values) if (node.value == letter) return node;
         return null;
     }
 }

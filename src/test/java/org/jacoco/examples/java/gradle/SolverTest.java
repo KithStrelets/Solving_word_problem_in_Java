@@ -65,7 +65,7 @@ public class SolverTest {
     public void testGetNonConcWords() {
         System.out.println("getNonConcWords");
         ArrayList<String> result = instance.getNonConcWords();
-        assertTrue(!result.isEmpty());
+        assertFalse(result.isEmpty());
     }
 
     /**
@@ -86,9 +86,9 @@ public class SolverTest {
     @Test
     public void testWordsSort() throws Exception {
         System.out.println("wordsSort");
-        assertTrue(!instance.getFullyConcWords().isEmpty());
-        assertTrue(!instance.getNotFullyConcWords().isEmpty());
-        assertTrue(!instance.getNonConcWords().isEmpty());
+        assertFalse(instance.getFullyConcWords().isEmpty());
+        assertFalse(instance.getNotFullyConcWords().isEmpty());
+        assertFalse(instance.getNonConcWords().isEmpty());
     }
 
     /**
